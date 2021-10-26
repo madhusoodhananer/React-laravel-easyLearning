@@ -6,6 +6,7 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 export class Footer extends Component {
   render() {
     return (
@@ -58,9 +59,9 @@ export class Footer extends Component {
             <Col lg={3} md={6} sm={12} className="p-5 text-center ">
               <div className="text-justify">
                 <h2 className="footerName">Policy</h2>
-                <a className="footerLink" href="#">
+                <Link className="footerLink" to="/refund">
                   Refund Policy{" "}
-                </a>
+                </Link>
                 <br />
                 <a className="footerLink" href="#">
                   Terms And Conditions{" "}
