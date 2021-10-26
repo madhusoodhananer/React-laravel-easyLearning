@@ -1,14 +1,14 @@
 import React, { Component, Fragment } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
-class RefundDescription extends Component {
+class TermsDescription extends Component {
   render() {
     return (
       <Fragment>
-        <Container className="mt-5">
+        <Container>
           <Row>
             <Col lg={12} md={12} sm={12}>
-              <h1 className="serviceName">Refund Policy for Easy Larning</h1>
+              <h1 className="serviceName">Terms & conditions</h1>
               <hr />
 
               <p className="serviceDescription">
@@ -143,4 +143,4 @@ class RefundDescription extends Component {
   }
 }
 
-export default RefundDescription;
+export default TermsDescription;

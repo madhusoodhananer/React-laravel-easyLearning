@@ -63,9 +63,9 @@ export class Footer extends Component {
                   Refund Policy{" "}
                 </Link>
                 <br />
-                <a className="footerLink" href="#">
+                <Link className="footerLink" to="/terms">
                   Terms And Conditions{" "}
-                </a>
+                </Link>
                 <br />
                 <a className="footerLink" href="#">
                   Privacy Policy{" "}
