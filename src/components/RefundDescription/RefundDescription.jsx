@@ -5,12 +5,13 @@ class RefundDescription extends Component {
   render() {
     return (
       <Fragment>
-        <Container>
+        <Container className="mt-5">
           <Row>
             <Col lg={12} md={12} sm={12}>
-              <h1>Refund Policy for Easy Larning</h1>
+              <h1 children="serviceName">Refund Policy for Easy Larning</h1>
               <hr />
-              <p>
+
+              <p className="serviceDescription">
                 At Easy Learning, accessible from http://localhost:3000/, one of
                 our main priorities is the privacy of our visitors. This Privacy
                 Policy document contains types of information that is collected
